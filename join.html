@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="join.css">
+
+</head>
+<body>
+  <div class="container">
+     <h1>Join</h1>
+    <form id="join-form">
+      <label for="profileImage">Profile Image</label>
+      <input type="file" name="profileImage" id="profile-image"><br>
+
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Name" required><br>
+
+      <label for="mbti">MBTI</label>
+      <input type="text" id="mbti" name="mbti" placeholder="MBTI" required> <br>
+
+      <label for="blog">Blog URL</label>
+      <input type="url" id="blog" name="blog" placeholder="Blog URL"> <br>
+
+      <label for="github">GitHub URL</label>
+      <input type="url" id="git" name="github" placeholder="GitHub URL"> <br>
+
+      <label for="shortIntro">간단한 소개</label>
+      <input type="text" id="shortIntro" name="shortIntro" placeholder="간단한 자기소개"> <br>
+
+      <label for="longIntro">자기소개</label>
+      <textarea name="longIntro" id="longIntro" rows="5"></textarea> <br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="MemberScript.js"></script>
+</body>
+</html>
